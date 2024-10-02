@@ -1,0 +1,66 @@
+
+body {
+    background-color: #f5e7e0; 
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+/* Contenedor para centrar los elementos */
+.container {
+    text-align: center;
+    padding: 20px;
+}
+
+/* Estilo de los botones*/
+button, input[type="submit"] {
+    background-color: #ffffff;
+    border: 2px solid #cccccc; 
+    color: #333333; 
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px; 
+    cursor: pointer;
+    transition: background-color 0.3s ease, border 0.3s ease;
+}
+
+/* Estilo de los botones al pasar el cursor */
+button:hover, input[type="submit"]:hover {
+    background-color: #f0f0f0; 
+    border: 2px solid #999999; 
+}
+
+/* Estilo del encabezado */
+h1 {
+    color: #4a4a4a; 
+    margin-bottom: 20px;
+}
+
+/* Estilo de los videos en la galería */
+video {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    border: 2px solid #dddddd; 
+    border-radius: 8px; 
+}
+
+/* Enlace estilo botón */
+a {
+    display: inline-block;
+    margin-top: 20px;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #333333; 
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+a:hover {
+    background-color: #555555; 
+}

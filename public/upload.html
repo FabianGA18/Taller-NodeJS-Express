@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Subir video</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+    <h1>Sube un video</h1>
+    <form action="/upload" method="POST" enctype="multipart/form-data">
+        <input type="file" name="video" accept="video/*" required />
+        <button type="submit">Subir video</button>
+    </form>
+    <a href="/">Volver a la página principal</a>
+</body>
+</html>
